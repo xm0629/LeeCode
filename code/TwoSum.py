@@ -1,3 +1,5 @@
+# python3.6 实现两数之和 LeeCode
+
 class TwoSum(object):
     """
     :type nums: List[int]
