@@ -60,10 +60,12 @@ class TwoSum(object):
                 return dic[nums[x]],x
             else:
                 dic[value] = x
-                
-nums = [2, 7, 5, 11]
-target = 9
 
-temp = TwoSum(nums,target)
-TNsum = temp.twosum2()
-print("sum of the two number ",TNsum)
+if __name__ == "__main__":
+                
+    nums = [2, 7, 5, 11]
+    target = 9
+
+    tmp = TwoSum(nums,target)
+    TNsum = tmp.twosum2()
+    print("sum of the two number ",TNsum)
